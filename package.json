@@ -1,0 +1,10 @@
+{
+  "name": "retail-pharmacy-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows-friendly retail pharmacy POS using Node.js, Express and MySQL",
+  "main": "server.js",
+  "scripts": {"start":"node server.js","dev":"node --watch server.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"dotenv":"^16.4.5","express":"^4.21.1","mysql2":"^3.11.3"}
+}
